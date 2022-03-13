@@ -13,7 +13,7 @@
 </head>
 <body>
     <!-------------------------------------------------------------------- TOP -->
-    <nav class="container-fluid   align-items-center sticky-top bg-light">
+    <nav class="container-fluid  align-items-center sticky-top bg-light">
         <div class="row align-items-center">
             <div class="col-2">
                 <nav class="navbar navbar-light bg-light">
@@ -56,32 +56,30 @@
                 </div>     
             </div>
             <div class="row align-items-center">
-                <div class="col-2"></div>
-                        <div class="col-10 btn-group" role="group" aria-label="Basic outlined example">
-                            <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Left</button>
-                            <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Middle</button>
-                            <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Right</button>
-                            <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Left</button>
-                            <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Middle</button>
-                            <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Right</button>
-                            <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Left</button>
-                            <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Middle</button>
-                            <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Right</button>
-                            <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Left</button>
-                        </div>
-                </div>    
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Left</button>
+                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Middle</button>
+                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Right</button>
+                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Left</button>
+                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Middle</button>
+                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Right</button>
+                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Left</button>
+                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Middle</button>
+                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Right</button>
+                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Left</button>
+                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Middle</button>
+                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Right</button>
+                  </div>
             </div>
         </div>     
     </nav>
 
-<div class="container-fluid pb-3">
-    <div class="row ">
-
-      <!------------------------------------------------------------ASIDE -->
-            <aside class="col-sm-2  sidebar-section d-xs-none pb-sm-0 pb-3 ">
-              <div class="sidebar-item ">
-                <div class="bg-light border rounded-3 p-1 sidebar-content myaside">
-                    <ul class="nav nav-pills mb-auto justify-content-between text-truncate">
+<div class="container-fluid pb-3 flex-grow-1 d-flex flex-column flex-sm-row overflow-auto">
+    <div class="row flex-grow-sm-1 flex-grow-0">
+            <!------------------------------------------------------------ASIDE -->
+            <aside class="col-sm-2 d-xs-none flex-grow-sm-1 flex-shrink-1 flex-grow-0 sticky-top pb-sm-0 pb-3 sidebar-section">
+                <div class="bg-light border rounded-3 p-1 h-100 sticky-top">
+                    <ul class="nav nav-pills flex-column flex-row mb-auto justify-content-between text-truncate">
                         <li class="nav-item">
                             <a href="#" class="nav-link px-2 text-truncate">
                                 <i class="bi bi-house fs-5 text-dark"></i>
@@ -159,13 +157,12 @@
 
                     </ul>
                 </div>
-              </div>  
             </aside>
             <!------------------------------------------------------ MAIN-->
 
 
 
-        <main class="col overflow-auto h-100" >
+        <main class="col overflow-auto h-100">
             <div class="bg-light border rounded-3 p-1 px-2">
             <!----------------------------------------------------- ALBUMAS--> 
 

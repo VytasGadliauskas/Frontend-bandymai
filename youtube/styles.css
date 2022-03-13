@@ -1,12 +1,13 @@
-.myasside {
-  position: sticky;
-  top: 0;
+.myaside {
+  position: fixed;
+  max-width: 200px;
+  left: 0;
 }
 
 .mybuttonbg {
-    width: auto;
+  width: auto;
 }
 
 .mybuttonbg:hover {
-    background-color: rgb(192, 188, 188) !important;
+  background-color: rgb(192, 188, 188) !important;
 }
