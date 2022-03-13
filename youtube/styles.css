@@ -18,8 +18,17 @@
   background-color: black;
 }
 
-
-
 .offcanvas {
   max-width: 220px;
+}
+
+@include media-breakpoint-up(sd) {
+        
+}  
+
+@include media-breakpoint-up(md) { 
+
+}
+@include media-breakpoint-up(lg) {
+
 }
