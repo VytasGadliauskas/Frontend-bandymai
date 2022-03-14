@@ -15,7 +15,7 @@
     <!-------------------------------------------------------------------- TOP -->
     <nav class="container-fluid align-items-center sticky-top bg-light">
         <div class="row align-items-center">
-            <div class="col-2">
+            <div class="col col-md-2">
                 <nav class="navbar navbar-light bg-light">
                     <div class="container">
                       <a class="navbar-brand" data-bs-toggle="offcanvas" href="#offcanvasMenu" role="button">
@@ -25,27 +25,27 @@
                     </div>
                 </nav> 
             </div>
-            <div class="col-6 ">
+            <div class="col-3 col-md-6 ">
                 <div class="row justify-content-end">
-                    <div class="input-group w-75">
-                        <input type="text" class="form-control" aria-label="Youtbe search">
-                        <span class="input-group-text"><i class="bi bi-keyboard"></i></span>
+                    <div class="input-group w-md-75">
+                        <input type="text" class="form-control d-none d-sm-block" aria-label="Youtbe search">
+                        <span class="input-group-text"><i class="bi bi-keyboard d-none d-sm-block"></i></span>
                         <span class="input-group-text"><i class="bi bi-search"></i></span>
-                        <i class="bi bi-mic-fill input-group-text bg-light"></i>
+                        <i class="bi bi-mic-fill input-group-text bg-light d-none d-sm-block"></i>
                     </div>
                 </div>
             </div>
-            <div class="col-4 ">
+            <div class="col-1 col-md-4 ">
                 <div class="row text-end">
                     <nav class="navbar navbar-light bg-light">
                         <div class="container justify-content-end">
-                                <a class="navbar-brand" href="#">
+                                <a class="navbar-brand d-none d-sm-block" href="#">
                                     <i class="bi bi-camera-video"></i>
                                 </a>
-                                <a class="navbar-brand" href="#">
+                                <a class="navbar-brand d-none d-sm-block" href="#">
                                     <i class="bi bi-grid-3x3-gap"></i>
                                 </a>
-                                <a class="navbar-brand" href="#">
+                                <a class="navbar-brand d-none d-sm-block" href="#">
                                     <i class="bi bi-bell"></i>
                                 </a>
                                 <a class="navbar-brand" href="#">
@@ -56,18 +56,18 @@
                 </div>     
             </div>
             <div class="row align-items-center">
-                <div class="col-2"></div>
-                <div class="col-10 btn-group" role="group" aria-label="Categories">
+                <div class="col-1 col-lg-2 d-none d-sm-block"></div>
+                <div class="col btn-group" role="group" aria-label="Categories">
                     <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg-active">All</button>
-                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Muzick</button>
+                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Muzic</button>
                     <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Movies</button>
-                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Interesting</button>
-                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Politic</button>
-                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">BBC</button>
-                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">POP</button>
-                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">ROCK</button>
-                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">Hard Metal</button>
-                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg">House</button>
+                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg d-none d-sm-block">Interesting</button>
+                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg d-none d-sm-block">Politic</button>
+                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg d-none d-sm-block">BBC</button>
+                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg d-none d-md-block">POP</button>
+                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg d-none d-md-block">ROCK</button>
+                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg d-none d-md-block">Hard Metal</button>
+                    <button type="button" class="btn btn-light m-1 p-1 border rounded-pill mybuttonbg d-none d-md-block">House</button>
                 </div>
                    
             </div>
@@ -75,7 +75,7 @@
     </nav>
    
 
-<!------------------------------   OFFCANVAS  -->
+<!--------------------------------------------------------------------   OFFCANVAS  -->
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
   <div class="offcanvas-header">
     <button type="button " class="text-reset btn btn-light" data-bs-dismiss="offcanvas" aria-label="Close">
@@ -92,56 +92,56 @@
                   <li class="nav-item">
                       <a href="#" class="nav-link px-2 text-truncate">
                           <i class="bi bi-house fs-5 text-dark"></i>
-                          <span class="d-none d-sm-inline text-dark">Home</span>
+                          <span class="text-dark">Home</span>
                       </a>
                   </li>
                   <li class="nav-item">
                       <a href="#" class="nav-link px-2 text-truncate">
                           <i class="bi bi-speedometer fs-5 text-dark"></i>
-                          <span class="d-none d-sm-inline text-dark">Dashboard</span>
+                          <span class="text-dark">Dashboard</span>
                       </a>
                   </li>
                   <li class="nav-item">
                       <a href="#" class="nav-link px-2 text-truncate">
                         <i class="bi bi-speedometer fs-5 text-dark"></i>
-                        <span class="d-none d-sm-inline text-dark">Orders</span> </a>
+                        <span class="text-dark">Orders</span> </a>
                   </li>
                   <li class="nav-item">
                       <a href="#" class="nav-link px-2 text-truncate">
                         <i class="bi bi-bricks fs-5 text-dark"></i>
-                          <span class="d-none d-sm-inline text-dark">Products</span> </a>
+                          <span class="text-dark">Products</span> </a>
                   </li>
                   <li class="nav-item">
                       <a href="#" class="nav-link px-2 text-truncate">
                         <i class="bi bi-people fs-5 text-dark"></i>
-                          <span class="d-none d-sm-inline text-dark">Customers</span> </a>
+                          <span class="text-dark">Customers</span> </a>
                   </li>
                   <li class="nav-item">
                       <a href="#" class="nav-link px-2 text-truncate">
                           <i class="bi bi-house fs-5 text-dark"></i>
-                          <span class="d-none d-sm-inline text-dark">Home</span>
+                          <span class="text-dark">Home</span>
                       </a>
                   </li>
                   <li class="nav-item">
                       <a href="#" class="nav-link px-2 text-truncate">
                           <i class="bi bi-speedometer fs-5 text-dark"></i>
-                          <span class="d-none d-sm-inline text-dark">Dashboard</span>
+                          <span class="text-dark">Dashboard</span>
                       </a>
                   </li>
                   <li class="nav-item">
                       <a href="#" class="nav-link px-2 text-truncate">
                         <i class="bi bi-card-text fs-5 text-dark"></i>
-                          <span class="d-none d-sm-inline text-dark">Orders</span> </a>
+                          <span class="text-dark">Orders</span> </a>
                   </li>
                   <li class="nav-item">
                       <a href="#" class="nav-link px-2 text-truncate">
                         <i class="bi bi-bricks fs-5 text-dark"></i>
-                          <span class="d-none d-sm-inline text-dark">Products</span> </a>
+                          <span class="text-dark">Products</span> </a>
                   </li>
                   <li class="nav-item">
                       <a href="#" class="nav-link px-2 text-truncate">
                         <i class="bi bi-people fs-5 text-dark"></i>
-                          <span class="d-none d-sm-inline text-dark">Customers</span> </a>
+                          <span class="text-dark">Customers</span> </a>
                   </li>
               </ul>
           </div>
@@ -152,80 +152,82 @@
 </div>
 
 
-
-
+<!--------------------------------------------------------------  Pagrindinis ASIDE + MAIN -->
 <div class="container-fluid pb-3">
     <div class="row ">
 
-      <!------------------------------------------------------------ASIDE -->
-            <aside class="col-sm-2  sidebar-section d-xs-none pb-sm-0 pb-3 ">
+      <!-------------------------------------------------------------------ASIDE -->
+        <aside class="col-md-1 col-lg-2 sidebar-section pb-sm-0 pb-3 d-none d-md-block mywidth">
               <div class="sidebar-item ">
-                <div class="bg-light border rounded-3 p-1 sidebar-content myaside">
-                    <ul class="nav nav-pills mb-auto justify-content-between text-truncate">
+                <div class="bg-light border rounded-3 p-1 sidebar-content  myaside">
+                    <ul class="nav nav-pills mb-auto justify-content-center text-truncate">
                         <li class="nav-item">
                             <a href="#" class="nav-link px-2 text-truncate">
                                 <i class="bi bi-house fs-5 text-dark"></i>
-                                <span class="d-none d-sm-inline text-dark">Home</span>
+                                <span class="d-none d-md-table text-dark">Home</span>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link px-2 text-truncate">
-                                <i class="bi bi-speedometer fs-5 text-dark"></i>
-                                <span class="d-none d-sm-inline text-dark">Dashboard</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
+                        <li>
                             <a href="#" class="nav-link px-2 text-truncate">
                               <i class="bi bi-speedometer fs-5 text-dark"></i>
-                              <span class="d-none d-sm-inline text-dark">Orders</span> </a>
+                              <span class="d-none d-md-block text-dark">Dashboard</span>
+                            </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link px-2 text-truncate"><i class="bi bi-bricks fs-5 text-dark"></i>
-                                <span class="d-none d-sm-inline text-dark">Products</span> </a>
+                        <li>
+                            <a href="#" class="nav-link px-2 text-truncate">
+                              <i class="bi bi-speedometer fs-5 text-dark "></i>
+                              <span class="d-none d-md-block text-dark">Orders</span> </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link px-2 text-truncate"><i class="bi bi-people fs-5 text-dark"></i>
-                                <span class="d-none d-sm-inline text-dark">Customers</span> </a>
+                        <li>
+                            <a href="#" class="nav-link px-2 text-truncate">
+                              <i class="bi bi-bricks fs-5 text-dark"></i>
+                                <span class="d-none d-md-block text-dark">Products</span> </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-2 text-truncate">
+                              <i class="bi bi-people fs-5 text-dark"></i>
+                                <span class="d-none d-md-block text-dark">Customers</span> </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link px-2 text-truncate">
                                 <i class="bi bi-house fs-5 text-dark"></i>
-                                <span class="d-none d-sm-inline text-dark">Home</span>
+                                <span class="d-none d-md-block text-dark">Home</span>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <li>
                             <a href="#" class="nav-link px-2 text-truncate">
                                 <i class="bi bi-speedometer fs-5 text-dark"></i>
-                                <span class="d-none d-sm-inline text-dark">Dashboard</span>
+                                <span class="d-none d-md-block text-dark">Dashboard</span>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link px-2 text-truncate"><i class="bi bi-card-text fs-5 text-dark"></i>
-                                <span class="d-none d-sm-inline text-dark">Orders</span> </a>
+                        <li>
+                            <a href="#" class="nav-link px-2 text-truncate">
+                              <i class="bi bi-card-text fs-5 text-dark"></i>
+                                <span class="d-none d-md-block text-dark">Orders</span> </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link px-2 text-truncate"><i class="bi bi-bricks fs-5 text-dark"></i>
-                                <span class="d-none d-sm-inline text-dark">Products</span> </a>
+                        <li>
+                            <a href="#" class="nav-link px-2 text-truncate">
+                              <i class="bi bi-bricks fs-5 text-dark"></i>
+                                <span class="d-none d-md-block text-dark">Products</span> </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link px-2 text-truncate"><i class="bi bi-people fs-5 text-dark"></i>
-                                <span class="d-none d-sm-inline text-dark">Customers</span> </a>
+                        <li>
+                            <a href="#" class="nav-link px-2 text-truncate">
+                              <i class="bi bi-people fs-5 text-dark"></i>
+                                <span class="d-none d-md-block text-dark">Customers</span> </a>
                         </li>
                     </ul>
                 </div>
               </div>  
-            </aside>
-            <!------------------------------------------------------ MAIN-->
+        </aside>
 
-
-
+      <!------------------------------------------------------------------ MAIN-->
         <main class="col overflow-auto h-100" >
             <div class="bg-light border rounded-3 p-1 px-2">
             <!----------------------------------------------------- ALBUMAS--> 
 
                 <div class="album py-2 bg-light">
                     <div class="container-fluid">
-                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
                         <!-----------------------------------------  VIDEO-->
 
                         <div class="col">
