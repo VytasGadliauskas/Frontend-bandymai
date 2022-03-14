@@ -1,7 +1,6 @@
 .myaside {
   position: fixed;
-  max-width: 200px;
-
+  max-width: 220px;
   left: 0;
 }
 
@@ -24,21 +23,19 @@
 }
 
 @include media-breakpoint-up(sm) {
-  
+  .myaside {
+    max-width: 50px;
+  }
+   
 }  
 
 @include media-breakpoint-up(md) { 
-  .mywidth {
-    width: 50px !important;
-  }
-  
-  .col-md-1 {
-    width: 50px !important;
-  }
+  .myaside {
+    max-width: 220px;
+  }  
 }
 @include media-breakpoint-up(lg) {
-  .mywidth {
-    width: 50px !important;
+  .myaside {
+    max-width: 220px;
   }
-
 }
