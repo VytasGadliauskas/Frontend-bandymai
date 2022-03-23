@@ -131,8 +131,9 @@ function darbuotojaiHtml () {
         let kortele = document.createElement("div");
           kortele.setAttribute("class","kortele");
         let nuotrauka = document.createElement("img");   
-          nuotrauka.setAttribute("class","kortele-img");   
+          nuotrauka.setAttribute("class","kortele-img"); 
           nuotrauka.src = element.photo;
+          nuotrauka.onclick = function () { window.location.href = element.website; window.location.target = "_blank";};
           kortele.appendChild(nuotrauka);
         let div_tekstas =   document.createElement("div");
           div_tekstas.setAttribute("class","div-tekstas"); 

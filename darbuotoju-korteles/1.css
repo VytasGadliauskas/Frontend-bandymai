@@ -3,24 +3,32 @@
     display: flex;
     flex-wrap: wrap;
     width: 90%;
-    gap: 10px;
-    padding: 10px;
-    background-color: blue;
+    row-gap: 20px;
+    padding: 20px;
+    background-image: url("1.jpeg");
     justify-content: space-around;
 }
 
 .kortele {
     width: 200px;
-    height: 200px;
+    height: 220px;
     display: flex;
     flex-direction: column;
     align-items: center;  
     justify-items: center; 
-    background-color: white;
+    background-color: rgb(236, 223, 223);
     padding-top: 20px;
     color: dimgray;
     gap: 10px;
-}
+    
+    border-image-slice:42 42 42 42;
+    border-image-width:42px 42px 42px 42px;
+    border-image-outset:0px 0px 0px 0px;
+    border-image-repeat:round round;
+    border-image-source:url("decorative-border.jpg");
+    border-style:solid;
+
+    }
 
 p {
     margin: 0; 
@@ -37,9 +45,18 @@ h4 {
     margin: 0;
 }
 
+a {
+    color: dimgray;
+}
+
 .kortele-img {
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%; 
     object-fit: cover;
+}
+
+.kortele:hover {
+    transform: scale(1.1); 
+    cursor: pointer;
 }
