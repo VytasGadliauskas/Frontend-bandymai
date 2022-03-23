@@ -135,7 +135,7 @@ function darbuotojaiHtml () {
           nuotrauka.src = element.photo;
           kortele.appendChild(nuotrauka);
         let div_tekstas =   document.createElement("div");
-          div_tekstas.setAttribute("class","div_tekstas"); 
+          div_tekstas.setAttribute("class","div-tekstas"); 
         let vardas = document.createElement("h4");
           vardas.innerText = element.name;  
           div_tekstas.appendChild(vardas); 
