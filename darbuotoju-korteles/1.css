@@ -1,0 +1,45 @@
+.darbuotojai {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 10px;
+    padding: 10px;
+    background-color: blue;
+    justify-content: space-around;
+}
+
+.kortele {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-items: center; 
+    background-color: white;
+    padding-top: 20px;
+    color: dimgray;
+    gap: 10px;
+}
+
+p {
+    margin: 0; 
+    font-size: small;
+}
+
+.div_tekstas {
+    padding-top: 10px;
+    padding: 0;
+    text-align: center;
+}
+
+h4 {
+    margin: 0;
+}
+
+.kortele-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    object-fit: cover;
+}
