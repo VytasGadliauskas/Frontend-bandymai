@@ -1,11 +1,11 @@
-JAVA MOKYMAI 2022 m.  savarankiski darbai:
+JAVA MOKYMAI 2022 m.  savarankiski front-end darbai:
 
 
-1.
+
 
 2. youtube puslapio klonas 
-https://vytasgadliauskas.github.io/Java-mokymai-savarankiski-darbai/youtube/
+https://vytasgadliauskas.github.io/Frontend-bandymai/youtube/
 
 3. darbuotoju korteles
-https://vytasgadliauskas.github.io/Java-mokymai-savarankiski-darbai/darbuotoju-korteles/1.html
+https://vytasgadliauskas.github.io/Frontend-bandymai/darbuotoju-korteles/1.html
 
